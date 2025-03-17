@@ -1,3 +1,4 @@
+`timescale 1ns/1ps
 module tb_FA_8_bit;
 
     reg [7:0] a;
