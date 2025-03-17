@@ -13,9 +13,9 @@ wire [6:0] carry;
 FA_1_bit f1(
             .a(a[0]),
             .b(b[0]),
-            .cin(cin[0]),
+            .cin(cin),
             .sum(sum[0]),
-            .co(cin[1])
+            .co(carry[0])
             ),
             f2(
             .a(a[1]),
